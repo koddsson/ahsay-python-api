@@ -10,4 +10,8 @@ setup(
       download_url = 'https://github.com/koddsson/ahsay-python-api/tarball/0.1', # I'll explain this in a second
       keywords = ['ahsay', 'backup', 'api'], # arbitrary keywords
       classifiers = [],
+      install_requires = [
+        'docopt==0.6.2',
+        'requests==2.4.1'
+      ],
 )
