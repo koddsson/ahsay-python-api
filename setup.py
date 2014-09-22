@@ -1,7 +1,7 @@
 from setuptools import setup
 setup(
-      name = 'ahsay-api',
-      packages = ['ahsay-api'], # this must be the same as the name above
+      name = 'ahsay_api',
+      packages = ['ahsay_api'], # this must be the same as the name above
       version = '0.1.1',
       description = 'A simple requests wrapper for the Ahsay API',
       author = 'Kristjan Oddsson',
