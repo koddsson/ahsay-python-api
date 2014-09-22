@@ -17,7 +17,7 @@ from docopt import docopt
 
 import os
 
-from api import AhsayAPI
+from ahsay.api import AhsayAPI
 from datetime import datetime, timedelta
 
 
