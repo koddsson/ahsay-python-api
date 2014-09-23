@@ -1,8 +1,13 @@
 import requests
 import xml.etree.ElementTree as ET
 
-from datetime import datetime
-from urllib.parse import urlparse, urlencode, urlunparse
+try:
+    # Python 3
+    from urllib.parse import urlparse, urlunparse, urlencode
+except ImportError:
+    # Python 2
+    from urlparse import urlparse, urlunparse
+    from urllib import urlencode
 
 
 class AhsayAPI(object):
