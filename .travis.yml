@@ -1,0 +1,8 @@
+deploy:
+  provider: pypi
+  user: koddsson
+  password:
+    secure: FfXbGxG98zNk3ofRcDxc6+xgY0RosACyZw1aWZRF+neMwVioKO3mREdyP4PNfiySxhbz4ZU1Y0e07+n8fwNjNJQ9DXh/kw8q6TDL54bS2v2JtukcC2oqsgULRi6uOwmHKdPiIKm10Aurl4tVltfW8P8Ek1ayS97jaEAvIvkguAg=
+  on:
+    tags: true
+    repo: koddsson/ahsay-python-api
