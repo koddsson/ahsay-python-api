@@ -1,5 +1,7 @@
 Ahsay python API library
 ========================
+![](https://travis-ci.org/koddsson/ahsay-python-api.svg?branch=master)
+
 A simple requests wrapper for the Ahsay API.
 
 Usage
